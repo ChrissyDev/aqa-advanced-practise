@@ -2,7 +2,7 @@ const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
   e2e: {
-    baseUrl: '', 
+    baseUrl: 'https://www.google.com/', 
     viewportWidth: 1280, 
     viewportHeight: 720, 
     defaultCommandTimeout: 4000, 
